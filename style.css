@@ -1,0 +1,97 @@
+.container{
+    width: 100%;
+    margin-top: 10%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.container h2{
+    background:cadetblue;
+    color: azure;
+    width: 200px;
+    font-size: 24px;
+    padding: 5px;
+    height: 40px;
+}
+.container h2::after
+{
+    content: '';
+    border-top: 40px solid cadetblue;
+    border-right: 40px transparent solid;
+    left: 48px;
+    top: 34px;
+    position: relative;
+}
+.row{
+    margin-top: 30px;
+}
+img{
+    width: 100%;
+}
+.bottom .fas
+{
+    color:darkmagenta;
+    font-size: 10px;
+}
+.bottom .far
+{
+    color:darkmagenta;
+    font-size: 10px;
+}
+.bottom h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+.bottom h4{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.overlay{
+    display: block;
+    position: absolute;
+    opacity: 0;
+    top: 30%;
+    margin-left: 0;
+    width: 70px;
+}
+.top:hover .overlay
+{
+    opacity: 1;
+    margin-left: 1%;
+    transition: 0.2s;
+
+}
+.overlay .far{
+    cursor: pointer;
+    background-color:whitesmoke;
+    color:indigo;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin: 5%;
+    margin-bottom: 5%;
+    
+    
+   
+
+}
+.overlay .fas{
+    cursor: pointer;
+    background-color:whitesmoke;
+    color:indigo;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin: 5%;
+    margin-bottom: 5%;
+    
+   
+
+}
+.overlay .btn-secondary{
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
